@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[121]:
 
 
 #importamos las librerías que necesitamos para hacer web scrapping
@@ -133,13 +130,10 @@ listaItems = []
 procesarcatalogo('https://www.milanuncios.com/venta-de-aticos/?dormd=3&banosd=2&pagina=1', listaItems)
 
 
-# In[122]:
 
 
 listaItems
 
-
-# In[126]:
 
 
 import pandas as pd
@@ -148,25 +142,22 @@ df.to_csv("listaItems.csv", sep=";", index=False)
 df
 
 
-# In[127]:
+
 
 
 df_listaItems = pd.read_csv('/Users/begomartinez/listaItems.csv',sep=';' )
 
 
-# In[128]:
 
 
 df_listaItems
 
 
-# In[129]:
 
 
 df_listaItems.dropna()
 
 
-# In[130]:
 
 
 #obtenemos la provincia con más venta de áticos
@@ -174,38 +165,32 @@ plot = df_listaItems['province'].value_counts().plot(kind='bar',
                                             title='Agrupados por provincia')
 
 
-# In[131]:
 
 
 price_mean =  pd.DataFrame((df_listaItems['price']).groupby(df['province']).mean())
 
 
-# In[132]:
+
 
 
 df_price_mean = price_mean
 
 
-# In[133]:
-
 
 df_price_mean
 
-
-# In[134]:
 
 
 province = df_price_mean.index
 price = df_price_mean['price']
 
 
-# In[137]:
 
 
 sns.barplot(x=df_price_mean.index, y="price", data=df_price_mean)
 
 
-# In[ ]:
+
 
 
 
