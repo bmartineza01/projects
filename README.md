@@ -1,10 +1,13 @@
 # PROJECTS
 Proyectos y prácticas uoc
 # PRACTICA Nº º 1 - WEB SCRAPING 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3739478.svg)](https://doi.org/10.5281/zenodo.3739478)
+
 
 Integrantes Practicas : 
 - Mº Begona Martinez Arribas
 - Silvia Martín Albarrán
+
 
 Con el fin de probar distintas opciones de juegos de datos y distintos modos de acceso (JSON,API,Beautiful), se ha realizado la practica con un menú en el que se pueden seleccionar varias opciones : 
  
