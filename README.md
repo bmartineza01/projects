@@ -26,6 +26,8 @@ Se van a obtener distintos tipos de campos para poder luego crear un fichero .cs
 - Perfiles 
 - URL_Ficha 
 
+Este dataset ha sido el seleccionado para publicar Zenodo. En este reporitorio se ha subido como pra1_dataset_agenda.csv, dataset que se encuentra en el repositorio de Github. 
+
  Como segunda opcion: Se ha elegido el conjunto de datos de Cursos de la Comunidad de Madrid también acceso open data 
  https://datos.comunidad.madrid/catalogo/dataset/2347cccf-0cb0-439b-9f99-173cc06be9d3/resource/3e318606-c332-458f-ac3e-cf2721f7f710/download/cursos_formacion_profesional_empleo.json
 En dicho enlace se proporcionan los distintos cursos existentes. COmo el juego de datos es elevando. En el programa hemos puesto un corte y solo extraemos unos cuantos cursos para luego que el gráfico utilizado sea sencillo.
